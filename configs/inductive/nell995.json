@@ -1,0 +1,20 @@
+{
+  "epochs": 20,
+  "batch_size": 16,
+  "eval_batch_size": 16,
+  "lr": 0.005,
+  "weight_decay": 0.0,
+  "grad_clip": 5.0,
+  "entity_dim": 32,
+  "cqr_dim": 24,
+  "cqr_layers": 3,
+  "astar_layers": 6,
+  "train_node_ratio": 0.10,
+  "test_node_ratio": 1.0,
+  "late_fusion_max_ratio": 0.35,
+  "mass_init_alpha": 0.20,
+  "component_loss_weight": 0.10,
+  "global_aux_weight": 0.05,
+  "log_every": 50,
+  "status": "untuned NELL-995 starting configuration; tune on G1 Valid, never G2 Test"
+}

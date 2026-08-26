@@ -1,0 +1,44 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Local secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Training outputs and generated artifacts
+runs/
+tmp/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.log
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Download caches (canonical dataset splits remain versioned)
+datasets/.download_cache/
+
+# Internal research/development notes and non-release diagnostics
+docs/superpowers/
+cqr_mass/benchmarking.py
+cqr_mass/coverage.py
+scripts/audit_*.py
+scripts/benchmark_efficiency.py
+scripts/run_main_config_v1_ablation.ps1
+tests/
